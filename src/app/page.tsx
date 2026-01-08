@@ -199,6 +199,170 @@ export default function Home() {
         </div>
       </section>
 
+      {/* --- THE MASTERPIECE (Replacing the Menu) --- */}
+      <section id="menu" className="py-24 bg-stone-100">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center gap-12">
+            <div className="md:w-1/2 relative">
+              {/* Big Hero Image of the Biryani Plate */}
+              <div className="aspect-square relative rounded-full border-4 border-amber-500 shadow-2xl overflow-hidden">
+                <Image
+                  src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?q=80&w=800&auto=format&fit=crop"
+                  alt="The Signature Biryani"
+                  fill
+                  className="object-cover hover:scale-110 transition duration-700"
+                />
+              </div>
+              {/* Badge */}
+              <div className="absolute top-0 right-0 bg-stone-900 text-white p-4 rounded-full shadow-lg border-2 border-white">
+                <span className="block text-2xl font-bold">₹350</span>
+                <span className="text-xs uppercase tracking-widest">
+                  Per Plate
+                </span>
+              </div>
+            </div>
+
+            <div className="md:w-1/2 text-left space-y-6">
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-sm">
+                One Dish. Infinite Flavor.
+              </h3>
+              <h2 className="text-5xl font-serif font-bold text-stone-900">
+                The Signature Chicken Dum Biryani
+              </h2>
+              <p className="text-lg text-stone-600 leading-relaxed">
+                We don't distract you with a 10-page menu. We serve{" "}
+                <strong>one thing</strong>, and we have perfected it over
+                decades.
+              </p>
+
+              <ul className="space-y-4 mt-6">
+                <li className="flex items-start gap-4">
+                  <div className="bg-amber-100 p-2 rounded-full text-amber-600 mt-1">
+                    <Star size={18} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-stone-900">The Rice</h4>
+                    <p className="text-sm text-stone-500">
+                      Premium extra-long grain Basmati, aged for aroma.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="bg-amber-100 p-2 rounded-full text-amber-600 mt-1">
+                    <Star size={18} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-stone-900">The Meat</h4>
+                    <p className="text-sm text-stone-500">
+                      Fresh, tender cuts marinated for 12 hours in secret
+                      spices.
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-4">
+                  <div className="bg-amber-100 p-2 rounded-full text-amber-600 mt-1">
+                    <Star size={18} />
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-stone-900">The Dum</h4>
+                    <p className="text-sm text-stone-500">
+                      Sealed with dough and slow-cooked over low flame to trap
+                      the essence.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <div className="pt-6">
+                <a
+                  href="#outlets"
+                  className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-8 rounded shadow-lg transition"
+                >
+                  Order The Special
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* --- CATERING (Bulk Orders) --- */}
+      <section className="py-24 bg-stone-900 text-white text-center relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5"></div>
+        <div className="container mx-auto px-6 relative z-10">
+          <h3 className="uppercase tracking-[0.2em] text-sm font-bold mb-4 text-amber-500">
+            Weddings • Corporate • Parties
+          </h3>
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">
+            Serve The City's Best
+          </h2>
+          <p className="text-xl mb-10 max-w-2xl mx-auto font-light text-stone-300">
+            Impress your guests with the authentic taste of Hyderabad. <br />
+            Bulk orders available for{" "}
+            <span className="font-bold text-white">20 to 2000 people</span>.
+          </p>
+          <a
+            href="#contact"
+            className="inline-block bg-white text-stone-900 hover:bg-amber-500 hover:text-white font-bold py-4 px-12 rounded-full transition duration-300 text-lg shadow-xl"
+          >
+            Inquire for Catering
+          </a>
+        </div>
+      </section>
+
+      {/* --- REVIEWS (Updated for One Dish) --- */}
+      <section className="py-24 bg-stone-50 border-b border-stone-200">
+        <div className="container mx-auto px-6 text-center">
+          <h2 className="text-4xl font-serif font-bold text-stone-900 mb-16">
+            Voices of Hyderabad
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-10">
+            {/* Review 1 */}
+            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition duration-300 border border-stone-100 relative">
+              <div className="text-amber-500 text-4xl absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white px-4">
+                ★★★★★
+              </div>
+              <p className="text-stone-600 italic text-lg mb-8 leading-relaxed">
+                "I love that they don't confuse you with a huge menu. They do
+                one thing, and they are the absolute masters of it."
+              </p>
+              <h4 className="font-bold text-stone-900 uppercase tracking-wider text-sm">
+                — Ahmed Khan
+              </h4>
+            </div>
+
+            {/* Review 2 */}
+            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition duration-300 border border-stone-100 relative">
+              <div className="text-amber-500 text-4xl absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white px-4">
+                ★★★★★
+              </div>
+              <p className="text-stone-600 italic text-lg mb-8 leading-relaxed">
+                "The consistency is incredible. Every time I order, the rice is
+                perfectly fluffy and the spice level is spot on."
+              </p>
+              <h4 className="font-bold text-stone-900 uppercase tracking-wider text-sm">
+                — Priya Sharma
+              </h4>
+            </div>
+
+            {/* Review 3 */}
+            <div className="bg-white p-10 rounded-xl shadow-sm hover:shadow-xl transition duration-300 border border-stone-100 relative">
+              <div className="text-amber-500 text-4xl absolute -top-6 left-1/2 transform -translate-x-1/2 bg-white px-4">
+                ★★★★★
+              </div>
+              <p className="text-stone-600 italic text-lg mb-8 leading-relaxed">
+                "Authentic Hyderabadi taste. You can smell the saffron and pure
+                ghee as soon as you open the parcel."
+              </p>
+              <h4 className="font-bold text-stone-900 uppercase tracking-wider text-sm">
+                — Rahul Reddy
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* --- OUTLETS & MAP SECTION --- */}
       <section id="outlets" className="py-24 bg-stone-900 text-white relative">
         <div className="container mx-auto px-6">
