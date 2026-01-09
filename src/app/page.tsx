@@ -215,7 +215,7 @@ export default function Home() {
               </div>
               {/* Badge */}
               <div className="absolute top-0 right-0 bg-stone-900 text-white p-4 rounded-full shadow-lg border-2 border-white">
-                <span className="block text-2xl font-bold">₹350</span>
+                <span className="block text-2xl font-bold">₹100</span>
                 <span className="text-xs uppercase tracking-widest">
                   Per Plate
                 </span>
