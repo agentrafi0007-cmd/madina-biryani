@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+// Final Cloudflare Fix 2026
+// /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
     images: {
