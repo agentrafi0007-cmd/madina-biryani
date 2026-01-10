@@ -18,7 +18,7 @@ const OutletMap = ({ outlets }: OutletMapProps) => {
     <div className="relative w-full h-full rounded-lg overflow-hidden shadow-lg border-4 border-orange-500">
       {/* 1. THE MAP (Paste your specific src link below) */}
       <iframe
-        src={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL}
+        src={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL || "https://www.google.com/maps/d/u/1/embed?mid=1my0t-sajDCbD17Vz6Rlm0w6e6IIhSts&ehbc=2E312F"}
         width="100%"
         height="100%"
         className="border-0"
