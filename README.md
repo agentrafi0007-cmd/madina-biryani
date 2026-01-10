@@ -63,6 +63,19 @@ Open [http://localhost:3000](http://localhost:3000) to view the website.
 - **Zomato**: Available for ECIL and Nacharam outlets
 - **Swiggy**: Available for Dammaiguda and Nacharam outlets
 
+## 👨‍💻 About the Developer
+
+**Rafi Ud Deen** - Full Stack Developer & Restaurant Technology Specialist
+
+- 🚀 **Expertise**: Next.js, React, TypeScript, Tailwind CSS, Modern Web Development
+- 🍽️ **Specialization**: Restaurant websites, food delivery integrations, local business solutions
+- 🎯 **Focus**: Performance optimization, mobile-first design, SEO excellence
+- 📧 **Contact**: [Rafiudden@outlook.com](mailto:Rafiudden@outlook.com)
+- 📱 **Instagram**: [@rafi_ud_deen](https://www.instagram.com/rafi_ud_deen/)
+- 🌐 **Portfolio**: Building digital experiences for local businesses in Hyderabad
+
+*Passionate about creating modern, responsive websites that help local restaurants thrive in the digital age.*
+
 ---
 
 *Carrying forward the Nizam's legacy of authentic Hyderabadi Dum Biryani since 1995*

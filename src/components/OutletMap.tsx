@@ -21,9 +21,9 @@ const OutletMap = ({ outlets }: OutletMapProps) => {
         src={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL}
         width="100%"
         height="100%"
-        style={{ border: 0 }}
+        className="border-0"
         allowFullScreen={true}
-        loading="lazy"
+        title="Madina Biryani Restaurant Locations Map - Find our outlets in Hyderabad and Secunderabad"
       ></iframe>
 
       {/* 2. THE PRIVACY COVER (Hides the Google Header) */}
