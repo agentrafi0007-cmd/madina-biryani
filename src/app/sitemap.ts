@@ -1,1 +1,38 @@
-import { MetadataRoute } from 'next'\n\nexport default function sitemap(): MetadataRoute.Sitemap {\n  const baseUrl = 'https://madinabiryani.site'\n  \n  return [\n    {\n      url: baseUrl,\n      lastModified: new Date(),\n      changeFrequency: 'weekly',\n      priority: 1,\n    },\n    {\n      url: `${baseUrl}/#menu`,\n      lastModified: new Date(),\n      changeFrequency: 'monthly',\n      priority: 0.8,\n    },\n    {\n      url: `${baseUrl}/#outlets`,\n      lastModified: new Date(),\n      changeFrequency: 'monthly',\n      priority: 0.9,\n    },\n    {\n      url: `${baseUrl}/#history`,\n      lastModified: new Date(),\n      changeFrequency: 'yearly',\n      priority: 0.6,\n    },\n    {\n      url: `${baseUrl}/#gallery`,\n      lastModified: new Date(),\n      changeFrequency: 'weekly',\n      priority: 0.7,\n    },\n  ]\n}
+import { MetadataRoute } from 'next'
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://madinabiryani.site'
+  
+  return [
+    {
+      url: baseUrl,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: `${baseUrl}/#menu`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/#outlets`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/#history`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.6,
+    },
+    {
+      url: `${baseUrl}/#gallery`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+  ]
+}
