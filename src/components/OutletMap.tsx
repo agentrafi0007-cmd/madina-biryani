@@ -15,7 +15,7 @@ type OutletMapProps = {
 
 const OutletMap = ({ outlets }: OutletMapProps) => {
   return (
-    <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg border-4 border-orange-500">
+    <div className="relative w-full h-full rounded-lg overflow-hidden shadow-lg border-4 border-orange-500">
       {/* 1. THE MAP (Paste your specific src link below) */}
       <iframe
         src="https://www.google.com/maps/d/u/1/embed?mid=1my0t-sajDCbD17Vz6Rlm0w6e6IIhSts&ehbc=2E312F"

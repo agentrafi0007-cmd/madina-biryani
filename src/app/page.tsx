@@ -469,22 +469,22 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-6 md:gap-8 lg:gap-10 h-auto lg:grid lg:grid-cols-3 lg:h-full">
+          <div className="flex flex-col gap-6 md:gap-8 lg:gap-10 h-auto xl:grid xl:grid-cols-5">
             {/* List of Outlets */}
-            <div className="lg:col-span-1 space-y-3 md:space-y-4 lg:space-y-5 max-h-80 md:max-h-96 lg:h-[500px] xl:h-[600px] overflow-y-auto pr-2 no-scrollbar">
+            <div className="xl:col-span-2 space-y-3 md:space-y-4 lg:space-y-5 h-64 md:h-80 lg:h-[600px] xl:h-[600px] overflow-y-auto pr-2 no-scrollbar">
               {outlets.map((outlet) => (
                 <div
                   key={outlet.id}
-                  className="bg-stone-800 p-4 md:p-5 lg:p-6 rounded-lg border border-stone-700 hover:border-amber-500 transition cursor-pointer group"
+                  className="bg-stone-800 p-4 md:p-5 lg:p-6 xl:p-8 rounded-lg border border-stone-700 hover:border-amber-500 transition cursor-pointer group"
                 >
-                  <h3 className="text-base md:text-lg lg:text-xl font-bold font-serif mb-2 md:mb-3 group-hover:text-amber-500 transition">
+                  <h3 className="text-base md:text-lg lg:text-xl xl:text-2xl font-bold font-serif mb-2 md:mb-3 group-hover:text-amber-500 transition">
                     {outlet.name}
                   </h3>
-                  <div className="space-y-2 md:space-y-3 text-xs md:text-sm lg:text-base text-stone-400">
+                  <div className="space-y-2 md:space-y-3 text-xs md:text-sm lg:text-base xl:text-lg text-stone-400">
                     <p className="flex items-start gap-2 md:gap-3">
                       <MapPin
                         size={16}
-                        className="mt-1 shrink-0 md:w-[18px] md:h-[18px]"
+                        className="mt-1 shrink-0 md:w-[18px] md:h-[18px] xl:w-5 xl:h-5"
                       />{" "}
                       {outlet.address}
                     </p>
@@ -492,11 +492,11 @@ export default function Home() {
                       href={`tel:${outlet.phone}`}
                       className="flex items-center gap-2 md:gap-3 hover:text-amber-500 transition"
                     >
-                      <Phone size={16} className="md:w-[18px] md:h-[18px]" />{" "}
+                      <Phone size={16} className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5" />{" "}
                       {outlet.phone}
                     </a>
                     <p className="flex items-center gap-2 md:gap-3">
-                      <Clock size={16} className="md:w-[18px] md:h-[18px]" />{" "}
+                      <Clock size={16} className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5" />{" "}
                       {outlet.timings}
                     </p>
                   </div>
@@ -504,7 +504,7 @@ export default function Home() {
                     href={outlet.mapLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-3 md:mt-4 lg:mt-5 w-full py-2 md:py-3 bg-stone-700 hover:bg-stone-600 rounded text-xs md:text-sm lg:text-base font-semibold transition block text-center"
+                    className="mt-3 md:mt-4 lg:mt-5 xl:mt-6 w-full py-2 md:py-3 xl:py-4 bg-stone-700 hover:bg-stone-600 rounded text-xs md:text-sm lg:text-base xl:text-lg font-semibold transition block text-center"
                   >
                     View on Map
                   </a>
@@ -513,7 +513,7 @@ export default function Home() {
             </div>
 
             {/* Google Map Component */}
-            <div className="lg:col-span-2 bg-stone-800 rounded-xl overflow-hidden shadow-2xl border border-stone-700 h-64 md:h-80 lg:h-[500px] xl:h-[600px]">
+            <div className="xl:col-span-3 bg-stone-800 rounded-xl overflow-hidden shadow-2xl border border-stone-700 h-64 md:h-80 lg:h-[600px] xl:h-[600px]">
               <OutletMap outlets={outlets} />
             </div>
           </div>
