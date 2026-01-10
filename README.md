@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍛 Madina Biryani - Authentic Hyderabadi Dum Biryani
 
-## Getting Started
+A modern, responsive website for Madina Biryani restaurant showcasing the authentic taste of Hyderabadi Dum Biryani with royal Nizam heritage.
 
-First, run the development server:
+## 🌟 Features
+
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
+- **Interactive Map**: Google Maps integration for outlet locations
+- **Online Ordering**: Direct links to Zomato and Swiggy for easy ordering
+- **Instagram Integration**: Live Instagram reels showcase
+- **Modern UI/UX**: Clean design with smooth animations and transitions
+- **Performance Optimized**: Fast loading with Next.js and Tailwind CSS
+
+## 🏪 Outlets
+
+- **ECIL**: South Kamala Nagar, Ecil, Hyderabad
+- **Moula Ali**: Gayatrinagar X Road, Moula Ali, Hyderabad  
+- **Dammaiguda**: Dammaiguda X Rd, Hyderabad
+- **Nacharam**: Street Number 3, Bhavani Nagar, Nacharam
+- **Ramanthapur**: Mallikarjuna Nagar, Ramanthapur
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16.1.1
+- **Styling**: Tailwind CSS v4
+- **Language**: TypeScript
+- **Icons**: Lucide React
+- **Maps**: Google Maps API
+- **Deployment**: Cloudflare Pages
+
+## 🚀 Getting Started
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Social Media
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Instagram**: [@super_chef_biryani](https://www.instagram.com/super_chef_biryani/)
+- **YouTube**: [@Growbyte07](https://www.youtube.com/@Growbyte07)
+- **Instagram**: [@madinachickenbiryani](https://www.instagram.com/madinachickenbiryani/)
+- **Instagram**: [@madinabiryaniq](https://www.instagram.com/madinabiryaniq/)
 
-## Learn More
+## 📞 Contact
 
-To learn more about Next.js, take a look at the following resources:
+**Phone**: +91 8374275150  
+**Location**: Secunderabad, Telangana
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🍽️ Order Online
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Zomato**: Available for ECIL and Nacharam outlets
+- **Swiggy**: Available for Dammaiguda and Nacharam outlets
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Carrying forward the Nizam's legacy of authentic Hyderabadi Dum Biryani since 1995*
