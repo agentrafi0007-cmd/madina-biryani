@@ -157,12 +157,14 @@ export default function Home() {
           </span>
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-serif text-white mt-4 md:mt-6 lg:mt-8 mb-3 md:mb-4 lg:mb-6 leading-tight landscape-spacing">
-            Best Chicken Biryani <span className="text-amber-400">₹100 Only</span>
+            The Royal Taste of <span className="text-amber-400">Hyderabad</span>
+            <span className="sr-only">Best Chicken Biryani ₹100 Only Affordable</span>
           </h1>
 
           <p className="text-sm md:text-lg lg:text-xl xl:text-2xl text-stone-200 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto px-2 leading-relaxed landscape-spacing">
-            Order authentic Hyderabadi Dum Biryani online. Fresh chicken biryani
-            delivery near you in ECIL, Nacharam, Dammaiguda at affordable prices.
+            Slow-cooked authentic Dum Biryani with real Nizam spices, served
+            fresh across our city outlets.
+            <span className="sr-only">Order chicken biryani online affordable prices ₹100 delivery near you ECIL Nacharam Dammaiguda</span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 lg:gap-6 justify-center px-2">
@@ -170,13 +172,15 @@ export default function Home() {
               onClick={scrollToOutlets}
               className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-sm md:text-lg lg:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2 md:gap-3"
             >
-              <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order Chicken Biryani
+              <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order Now
+              <span className="sr-only">Order Chicken Biryani ₹100 Affordable</span>
             </button>
             <a
               href="#menu"
               className="bg-transparent border-2 border-white hover:bg-white hover:text-stone-900 text-white px-5 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-lg font-bold transition-all flex items-center justify-center gap-2 text-sm md:text-base lg:text-lg shadow-lg"
             >
-              ₹100 Biryani Menu
+              View Menu
+              <span className="sr-only">₹100 Biryani Menu Affordable Chicken</span>
             </a>
           </div>
         </div>
@@ -297,14 +301,18 @@ export default function Home() {
 
             <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4 md:space-y-6 lg:space-y-8">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base">
-                ₹100 Chicken Biryani - Order Online
+                One Dish. Infinite Flavor.
+                <span className="sr-only">₹100 Chicken Biryani Order Online Affordable</span>
               </h3>
               <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 leading-tight">
-                Madina Chicken Biryani - Hyderabadi Dum Style
+                The Signature Chicken Dum Biryani
+                <span className="sr-only">Madina Chicken Biryani Hyderabadi Dum Style ₹100</span>
               </h2>
               <p className="text-sm md:text-base lg:text-lg xl:text-xl text-stone-600 leading-relaxed">
-                Best chicken biryani in Hyderabad at affordable prices. We serve{" "}
-                <strong>authentic Hyderabadi Dum Biryani</strong> with fresh chicken and premium basmati rice for just ₹100 per plate.
+                We don't distract you with a 10-page menu. We serve{" "}
+                <strong>one thing</strong>, and we have perfected it over
+                decades.
+                <span className="sr-only">Best chicken biryani Hyderabad affordable prices authentic Hyderabadi Dum Biryani fresh chicken premium basmati rice ₹100 per plate</span>
               </p>
 
               <ul className="space-y-3 md:space-y-4 lg:space-y-5 mt-4 md:mt-6 lg:mt-8">
@@ -365,7 +373,8 @@ export default function Home() {
                   onClick={scrollToOutlets}
                   className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white font-bold py-3 md:py-4 lg:py-5 px-6 md:px-8 lg:px-10 xl:px-12 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-sm md:text-base lg:text-lg xl:text-xl"
                 >
-                  Order Chicken Biryani Now
+                  Order Now
+                  <span className="sr-only">Order Chicken Biryani Now ₹100 Affordable Best</span>
                 </button>
               </div>
             </div>
