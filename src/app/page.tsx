@@ -107,25 +107,25 @@ export default function Home() {
           <div className="hidden md:flex space-x-4 lg:space-x-6 xl:space-x-8 text-xs lg:text-sm uppercase tracking-wider font-semibold">
             <a
               href="#home"
-              className="hover:text-white transition-colors py-2 px-2"
+              className="hover:text-white transition-colors py-2 px-2 underline decoration-transparent hover:decoration-white underline-offset-4 min-h-[44px] min-w-[44px] flex items-center"
             >
               Home
             </a>
             <a
               href="#history"
-              className="hover:text-white transition-colors py-2 px-2"
+              className="hover:text-white transition-colors py-2 px-2 underline decoration-transparent hover:decoration-white underline-offset-4 min-h-[44px] min-w-[44px] flex items-center"
             >
               Heritage
             </a>
             <a
               href="#outlets"
-              className="hover:text-white transition-colors py-2 px-2"
+              className="hover:text-white transition-colors py-2 px-2 underline decoration-transparent hover:decoration-white underline-offset-4 min-h-[44px] min-w-[44px] flex items-center"
             >
               Locations
             </a>
             <button
               onClick={scrollToOutlets}
-              className="px-3 lg:px-4 xl:px-5 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 hover:text-white transition-all hover:scale-105 uppercase tracking-wider text-xs lg:text-sm font-semibold shadow-lg"
+              className="px-3 lg:px-4 xl:px-5 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 hover:text-white transition-all hover:scale-105 uppercase tracking-wider text-xs lg:text-sm font-semibold shadow-lg min-h-[44px] min-w-[44px]"
             >
               ORDER NOW
             </button>
@@ -134,7 +134,7 @@ export default function Home() {
           <div className="md:hidden">
             <button
               onClick={scrollToOutlets}
-              className="px-3 py-2 bg-amber-600 text-white rounded-full hover:bg-amber-700 hover:text-white transition-all hover:scale-105 font-bold text-xs shadow-lg"
+              className="px-3 py-2 bg-amber-600 text-white rounded-full hover:bg-amber-700 hover:text-white transition-all hover:scale-105 font-bold text-xs shadow-lg min-h-[44px] min-w-[44px]"
             >
               Order
             </button>
@@ -170,14 +170,14 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 lg:gap-6 justify-center px-2">
             <button
               onClick={scrollToOutlets}
-              className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-sm md:text-lg lg:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2 md:gap-3"
+              className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-sm md:text-lg lg:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2 md:gap-3 min-h-[44px] min-w-[44px]"
             >
               <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order Now
               <span className="sr-only">chicken biryani description chicken biryani drawing chicken biryani dum biryani chicken biryani dikhao chicken biryani digestion time chicken biryani dum time chicken biryani delhi chicken biryani delivery near me chicken biryani dada boudi price chicken biryani drawing for kids chicken biryani eppadi seivathu chicken biryani ela cheyali chicken biryani easy recipe chicken biryani executive smile pack chicken biryani eppadi chicken biryani eating chicken biryani essence chicken biryani ela chestaru chicken biryani ela tayaru cheyali chicken biryani emoji</span>
             </button>
             <a
               href="#menu"
-              className="bg-transparent border-2 border-white hover:bg-white hover:text-stone-900 text-white px-5 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-lg font-bold transition-all flex items-center justify-center gap-2 text-sm md:text-base lg:text-lg shadow-lg"
+              className="bg-transparent border-2 border-white hover:bg-white hover:text-stone-900 text-white px-5 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-lg font-bold transition-all flex items-center justify-center gap-2 text-sm md:text-base lg:text-lg shadow-lg underline decoration-transparent hover:decoration-stone-900 underline-offset-4 min-h-[44px] min-w-[44px]"
             >
               View Menu
               <span className="sr-only">chicken biryani family pack price chicken biryani for 100 persons price chicken biryani full plate price chicken biryani family pack chicken biryani for 15 persons ingredients chicken biryani for 50 person price chicken biryani for 20 persons ingredients chicken biryani for 10 persons ingredients chicken biryani for 25 persons price chicken biryani famous near me chicken biryani game chicken biryani gravy recipe chicken biryani glycemic index chicken biryani gravy chicken biryani gurgaon chicken biryani good for health chicken biryani gravy masala chicken biryani good for weight loss chicken biryani gorakhpur chicken biryani ghaziabad</span>
@@ -227,12 +227,12 @@ export default function Home() {
             {/* Text Side */}
             <div className="w-full lg:w-1/2 space-y-6 md:space-y-8 lg:space-y-10 text-center lg:text-left">
               <div>
-                <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base mb-2 md:mb-3">
+                <h2 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base mb-2 md:mb-3">
                   Our Heritage
-                </h3>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 mb-4 md:mb-6 lg:mb-8">
-                  The Story of Hyderabadi Dum Biryani
                 </h2>
+                <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 mb-4 md:mb-6 lg:mb-8">
+                  The Story of Hyderabadi Dum Biryani
+                </h3>
                 <div className="w-16 md:w-20 lg:w-24 h-1 bg-amber-500 mx-auto lg:mx-0"></div>
               </div>
 
@@ -300,14 +300,14 @@ export default function Home() {
             </div>
 
             <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4 md:space-y-6 lg:space-y-8">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base">
+              <h2 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base">
                 One Dish. Infinite Flavor.
                 <span className="sr-only">chicken biryani hd images chicken biryani hotel near me chicken biryani handi chicken biryani hyderabad chicken biryani hyderabadi chicken biryani how many calories chicken biryani hd chicken biryani home delivery near me chicken biryani hotel chicken biryani hindi chicken biryani ingredients chicken biryani images hd chicken biryani images at home chicken biryani items list chicken biryani in cooker chicken biryani in tamil chicken biryani ingredients list chicken biryani in hindi chicken biryani in telugu</span>
-              </h3>
-              <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 leading-tight">
+              </h2>
+              <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 leading-tight">
                 The Signature Chicken Dum Biryani
                 <span className="sr-only">chicken biryani jaise vidhanam chicken biryani jumbo pack price chicken biryani jaipur chicken biryani jabbar bhai chicken biryani jabalpur chicken biryani jalandhar chicken biryani jumbo chicken biryani jalgaon chicken biryani jpg image chicken biryani jumbo pack chicken biryani ki recipe chicken biryani kannada chicken biryani ka photo chicken biryani khane ke fayde chicken biryani kashi banvaychi chicken biryani kaise vidhanam chicken biryani kaise chicken biryani kerala style chicken biryani kolkata</span>
-              </h2>
+              </h3>
               <p className="text-sm md:text-base lg:text-lg xl:text-xl text-stone-600 leading-relaxed">
                 We don't distract you with a 10-page menu. We serve{" "}
                 <strong>one thing</strong>, and we have perfected it over
@@ -371,7 +371,7 @@ export default function Home() {
               <div className="pt-4 md:pt-6 lg:pt-8">
                 <button
                   onClick={scrollToOutlets}
-                  className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white font-bold py-3 md:py-4 lg:py-5 px-6 md:px-8 lg:px-10 xl:px-12 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-sm md:text-base lg:text-lg xl:text-xl"
+                  className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white font-bold py-3 md:py-4 lg:py-5 px-6 md:px-8 lg:px-10 xl:px-12 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-sm md:text-base lg:text-lg xl:text-xl min-h-[44px] min-w-[44px]"
                 >
                   Order Now
                   <span className="sr-only">chicken biryani near me delivery chicken biryani near me open now chicken biryani near me within 400m chicken biryani near me with price chicken biryani near me within 800m chicken biryani nearby chicken biryani nutrition chicken biryani near me within 1.6 km chicken biryani near me home delivery chicken biryani online order chicken biryani order chicken biryani online chicken biryani online order near me chicken biryani order near me chicken biryani origin chicken biryani original photo chicken biryani offer chicken biryani order in train chicken biryani odia</span>
@@ -400,7 +400,7 @@ export default function Home() {
           </p>
           <button
             onClick={scrollToOutlets}
-            className="bg-amber-600 text-black hover:bg-amber-700 hover:text-black font-bold py-3 md:py-4 lg:py-5 px-8 md:px-10 lg:px-12 xl:px-16 rounded-full transition duration-300 text-base md:text-lg lg:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105"
+            className="bg-amber-600 text-black hover:bg-amber-700 hover:text-black font-bold py-3 md:py-4 lg:py-5 px-8 md:px-10 lg:px-12 xl:px-16 rounded-full transition duration-300 text-base md:text-lg lg:text-xl shadow-xl hover:shadow-2xl transform hover:scale-105 min-h-[44px] min-w-[44px]"
           >
             Inquire for Catering
           </button>
@@ -819,22 +819,22 @@ export default function Home() {
             </h4>
             <ul className="space-y-1 md:space-y-2 text-xs md:text-sm">
               <li>
-                <a href="#home" className="hover:text-amber-500 transition">
+                <a href="#home" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#menu" className="hover:text-amber-500 transition">
+                <a href="#menu" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
                   Our Menu
                 </a>
               </li>
               <li>
-                <a href="#outlets" className="hover:text-amber-500 transition">
+                <a href="#outlets" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
                   Locate Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-500 transition">
+                <a href="#" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
                   Privacy Policy
                 </a>
               </li>
@@ -850,7 +850,7 @@ export default function Home() {
                 <Phone size={14} className="text-amber-600 md:w-4 md:h-4" />
                 <a
                   href="tel:+918374275150"
-                  className="hover:text-amber-500 transition"
+                  className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
                 >
                   +91 8374275150
                 </a>
@@ -863,7 +863,7 @@ export default function Home() {
                 © 2026 Madina Chicken Biryani. All Rights Reserved.
               </li>
               <li className="text-xs mt-1">
-                For feedback & suggestions: <a href="mailto:Rafiudden@outlook.com" className="text-amber-500 hover:text-amber-400 transition">Rafiudden@outlook.com</a>
+                For feedback & suggestions: <a href="mailto:Rafiudden@outlook.com" className="text-amber-400 hover:text-amber-300 transition underline decoration-transparent hover:decoration-amber-300 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">Rafiudden@outlook.com</a>
               </li>
             </ul>
           </div>
