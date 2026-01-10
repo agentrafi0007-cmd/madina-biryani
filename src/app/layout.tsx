@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
+import FaqSchema from "@/components/FaqSchema";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -85,6 +87,8 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <JsonLd />
+        <FaqSchema />
+        <BreadcrumbSchema />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

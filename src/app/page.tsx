@@ -99,9 +99,9 @@ export default function Home() {
       className={`${playfair.variable} ${lato.variable} font-sans bg-stone-50 text-stone-800`}
     >
       {/* --- NAVIGATION --- */}
-      <nav className="fixed w-full z-50 bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20">
+      <nav className="fixed w-full z-50 bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20 landscape-nav">
         <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-8">
-          <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white">
+          <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white landscape-text">
             MADINA <span className="text-amber-500">BIRYANI</span>
           </div>
           <div className="hidden md:flex space-x-4 lg:space-x-6 xl:space-x-8 text-xs lg:text-sm uppercase tracking-wider font-semibold">
@@ -145,22 +145,22 @@ export default function Home() {
       {/* --- HERO SECTION --- */}
       <section
         id="home"
-        className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[url('/MadinaBiryaniBG.jpg')] bg-cover bg-center bg-no-repeat"
+        className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-[url('/MadinaBiryaniBG.jpg')] bg-cover bg-center bg-no-repeat landscape-hero"
       >
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
 
         {/* Content */}
-        <div className="relative z-10 text-center px-4 md:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div className="relative z-10 text-center px-4 md:px-6 lg:px-8 max-w-6xl mx-auto landscape-content">
           <span className="bg-amber-600 text-white px-3 py-1 md:px-4 md:py-2 lg:px-5 lg:py-2 rounded-full text-xs md:text-sm lg:text-base font-semibold tracking-wide uppercase shadow-lg inline-block">
             Est. 1995
           </span>
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-serif text-white mt-4 md:mt-6 lg:mt-8 mb-3 md:mb-4 lg:mb-6 leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-serif text-white mt-4 md:mt-6 lg:mt-8 mb-3 md:mb-4 lg:mb-6 leading-tight landscape-spacing">
             The Royal Taste of <span className="text-amber-400">Hyderabad</span>
           </h1>
 
-          <p className="text-sm md:text-lg lg:text-xl xl:text-2xl text-stone-200 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto px-2 leading-relaxed">
+          <p className="text-sm md:text-lg lg:text-xl xl:text-2xl text-stone-200 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto px-2 leading-relaxed landscape-spacing">
             Slow-cooked authentic Dum Biryani with real Nizam spices, served
             fresh across our city outlets.
           </p>
@@ -186,7 +186,7 @@ export default function Home() {
       {/* --- STORY & HISTORY SECTION --- */}
       <section
         id="history"
-        className="py-12 md:py-20 lg:py-24 xl:py-28 px-4 md:px-6 lg:px-8 relative overflow-hidden"
+        className="py-12 md:py-20 lg:py-24 xl:py-28 px-4 md:px-6 lg:px-8 relative overflow-hidden landscape-content"
       >
         {/* Background Pattern */}
         <div className="absolute top-0 right-0 w-32 h-32 md:w-48 md:h-48 lg:w-64 lg:h-64 bg-amber-100 rounded-full blur-3xl opacity-50 -z-10 translate-x-1/2"></div>
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl relative max-w-sm mx-auto lg:max-w-md xl:max-w-lg">
                 <Image
                   src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop"
-                  alt="Authentic Hyderabadi Biryani"
+                  alt="Authentic Hyderabadi Dum Biryani served in traditional style with aromatic basmati rice and tender chicken"
                   fill
                   sizes="(max-width: 640px) 384px, (max-width: 1024px) 448px, 512px"
                   className="object-cover hover:scale-105 transition duration-700"
@@ -278,7 +278,7 @@ export default function Home() {
               <div className="aspect-square relative rounded-full border-3 md:border-4 lg:border-5 border-amber-500 shadow-2xl overflow-hidden max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
                 <Image
                   src="/MadinaBiryaniSG.jpg"
-                  alt="The Signature Biryani"
+                  alt="Madina Biryani signature Hyderabadi Dum Biryani plate with fragrant basmati rice, tender chicken, and traditional spices - ₹100 per plate"
                   fill
                   sizes="(max-width: 640px) 320px, (max-width: 768px) 384px, (max-width: 1024px) 448px, (max-width: 1280px) 512px, 576px"
                   priority
@@ -578,7 +578,7 @@ export default function Home() {
               href="https://www.instagram.com/reel/DOGzzvykh9c/"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-[9/16] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="w-[302px] h-[537px] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 landscape:aspect-[16/9] landscape:col-span-1"
             >
               <iframe
                 src="https://www.instagram.com/reel/DOGzzvykh9c/embed?autoplay=1&muted=1"
@@ -598,7 +598,7 @@ export default function Home() {
               href="https://www.instagram.com/reel/DPYUFDSiDak/"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-[9/16] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="w-[302px] h-[537px] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <iframe
                 src="https://www.instagram.com/reel/DPYUFDSiDak/embed?autoplay=1&muted=1"
@@ -618,7 +618,7 @@ export default function Home() {
               href="https://www.instagram.com/reel/DPV8eE_iIoy/"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-[9/16] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="w-[302px] h-[537px] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <iframe
                 src="https://www.instagram.com/reel/DPV8eE_iIoy/embed?autoplay=1&muted=1"
@@ -638,7 +638,7 @@ export default function Home() {
               href="https://www.instagram.com/reel/DSZbUL1kl3p/"
               target="_blank"
               rel="noopener noreferrer"
-              className="aspect-[9/16] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="w-[302px] h-[537px] bg-stone-200 relative group overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
             >
               <iframe
                 src="https://www.instagram.com/reel/DSZbUL1kl3p/embed?autoplay=1&muted=1"
@@ -838,6 +838,9 @@ export default function Home() {
               </li>
               <li className="text-xs mt-3 md:mt-4">
                 © 2026 Madina Chicken Biryani. All Rights Reserved.
+              </li>
+              <li className="text-xs mt-1">
+                For feedback & suggestions: <a href="mailto:Rafiudden@outlook.com" className="text-amber-500 hover:text-amber-400 transition">Rafiudden@outlook.com</a>
               </li>
             </ul>
           </div>

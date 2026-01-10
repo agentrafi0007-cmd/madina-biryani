@@ -10,6 +10,35 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Landscape mode optimizations */
+@media (orientation: landscape) and (max-height: 600px) {
+  .landscape-hero {
+    min-height: 70vh !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .landscape-nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .landscape-content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .landscape-text {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .landscape-spacing {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
 /* Custom Parallax Background Class */
 .hero-parallax {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(28, 25, 23, 1)),
