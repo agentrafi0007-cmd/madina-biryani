@@ -1,87 +1,47 @@
-"use client";
+import React from "react";
 
-import {
-  GoogleMap,
-  LoadScript,
-  Marker,
-  InfoWindow,
-} from "@react-google-maps/api";
-import { useState } from "react";
-
-// Define the Outlet type
 type Outlet = {
   id: number;
   name: string;
-  lat: number;
-  lng: number;
   address: string;
+  phone: string;
+  timings: string;
+  mapLink: string;
 };
 
-const containerStyle = {
-  width: "100%",
-  height: "400px",
-  borderRadius: "0.75rem",
+type OutletMapProps = {
+  outlets: Outlet[];
 };
 
-const center = {
-  lat: 17.385, // Hyderabad Center
-  lng: 78.4867,
-};
-
-// IMPORTANT: Replace this with your actual Google Maps API Key
-const GOOGLE_MAPS_API_KEY = "AIzaSyBX-gzbZP6_8O6zOoVZQdy9R60OXGgBxOY";
-
-export default function OutletMap({ outlets }: { outlets: Outlet[] }) {
-  const [selectedOutlet, setSelectedOutlet] = useState<Outlet | null>(null);
-
+const OutletMap = ({ outlets }: OutletMapProps) => {
   return (
-    <LoadScript googleMapsApiKey={GOOGLE_MAPS_API_KEY}>
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={center}
-        zoom={11}
-        options={{
-          styles: [
-            // Dark/Royal map style
-            { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
-            {
-              elementType: "labels.text.stroke",
-              stylers: [{ color: "#242f3e" }],
-            },
-            {
-              elementType: "labels.text.fill",
-              stylers: [{ color: "#746855" }],
-            },
-          ],
-        }}
-      >
-        {outlets.map((outlet) => (
-          <Marker
-            key={outlet.id}
-            position={{ lat: outlet.lat, lng: outlet.lng }}
-            onClick={() => setSelectedOutlet(outlet)}
-          />
-        ))}
+    <div className="relative w-full h-[400px] rounded-lg overflow-hidden shadow-lg border-4 border-orange-500">
+      {/* 1. THE MAP (Paste your specific src link below) */}
+      <iframe
+        src="https://www.google.com/maps/d/u/1/embed?mid=1my0t-sajDCbD17Vz6Rlm0w6e6IIhSts&ehbc=2E312F"
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen={true}
+        loading="lazy"
+      ></iframe>
 
-        {selectedOutlet && (
-          <InfoWindow
-            position={{ lat: selectedOutlet.lat, lng: selectedOutlet.lng }}
-            onCloseClick={() => setSelectedOutlet(null)}
-          >
-            <div className="text-stone-900 p-2">
-              <h3 className="font-bold text-lg">{selectedOutlet.name}</h3>
-              <p className="text-sm">{selectedOutlet.address}</p>
-              <a
-                href={`https://www.google.com/maps/dir/?api=1&destination=${selectedOutlet.lat},${selectedOutlet.lng}`}
-                target="_blank"
-                className="text-amber-600 font-bold text-sm mt-2 block hover:underline"
-              >
-                Get Directions
-              </a>
-            </div>
-          </InfoWindow>
-        )}
-      </GoogleMap>
-    </LoadScript>
+      {/* 2. THE PRIVACY COVER (Hides the Google Header) */}
+      <div className="absolute top-0 left-0 w-full h-[55px] bg-gray-900 z-10 flex items-center px-4 justify-between">
+        <div className="flex items-center gap-3">
+          {/* Map Icon */}
+          <span className="text-orange-500 text-2xl">📍</span>
+          {/* Title */}
+          <span className="text-white font-bold text-lg">Our Locations</span>
+        </div>
+
+        {/* Optional: Add a subtle text like "Hyderabad" */}
+        <span className="text-gray-400 text-sm hidden sm:block">
+          Hyderabad & Secunderabad
+        </span>
+      </div>
+    </div>
   );
-}
+};
+
+export default OutletMap;
