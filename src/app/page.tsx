@@ -158,13 +158,32 @@ export default function Home() {
 
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold font-serif text-white mt-4 md:mt-6 lg:mt-8 mb-3 md:mb-4 lg:mb-6 leading-tight landscape-spacing">
             The Royal Taste of <span className="text-amber-400">Hyderabad</span>
-            <span className="sr-only">chicken biryani near me chicken biryani recipe chicken biryani kaise banate hain chicken biryani images chicken biryani calories chicken biryani seivathu eppadi chicken biryani masala chicken biryani photo chicken biryani price chicken biryani at home chicken biryani ahmedabad chicken biryani and kabab chicken biryani app chicken biryani allergens chicken biryani agra chicken biryani andhra style chicken biryani available near me chicken biryani and mutton biryani chicken biryani all ingredients</span>
+            <span className="sr-only">
+              chicken biryani near me chicken biryani recipe chicken biryani
+              kaise banate hain chicken biryani images chicken biryani calories
+              chicken biryani seivathu eppadi chicken biryani masala chicken
+              biryani photo chicken biryani price chicken biryani at home
+              chicken biryani ahmedabad chicken biryani and kabab chicken
+              biryani app chicken biryani allergens chicken biryani agra chicken
+              biryani andhra style chicken biryani available near me chicken
+              biryani and mutton biryani chicken biryani all ingredients
+            </span>
           </h1>
 
           <p className="text-sm md:text-lg lg:text-xl xl:text-2xl text-stone-200 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto px-2 leading-relaxed landscape-spacing">
             Slow-cooked authentic Dum Biryani with real Nizam spices, served
             fresh across our city outlets.
-            <span className="sr-only">chicken biryani banane ka tarika chicken biryani banane ki recipe chicken biryani banane ki vidhi chicken biryani banana chicken biryani benefits chicken biryani banane ka vidhi chicken biryani banner design chicken biryani best near me chicken biryani bangalore chicken biryani bucket price chicken biryani chicken biryani chicken biryani calories per 100g chicken biryani calories per 250g chicken biryani calories per 500g chicken biryani chesa vidhanam chicken biryani center near me chicken biryani cooker chicken biryani cut chicken biryani caterers near me</span>
+            <span className="sr-only">
+              chicken biryani banane ka tarika chicken biryani banane ki recipe
+              chicken biryani banane ki vidhi chicken biryani banana chicken
+              biryani benefits chicken biryani banane ka vidhi chicken biryani
+              banner design chicken biryani best near me chicken biryani
+              bangalore chicken biryani bucket price chicken biryani chicken
+              biryani chicken biryani calories per 100g chicken biryani calories
+              per 250g chicken biryani calories per 500g chicken biryani chesa
+              vidhanam chicken biryani center near me chicken biryani cooker
+              chicken biryani cut chicken biryani caterers near me
+            </span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 lg:gap-6 justify-center px-2">
@@ -172,15 +191,39 @@ export default function Home() {
               onClick={scrollToOutlets}
               className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-sm md:text-lg lg:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2 md:gap-3 min-h-[44px] min-w-[44px]"
             >
-              <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order Now
-              <span className="sr-only">chicken biryani description chicken biryani drawing chicken biryani dum biryani chicken biryani dikhao chicken biryani digestion time chicken biryani dum time chicken biryani delhi chicken biryani delivery near me chicken biryani dada boudi price chicken biryani drawing for kids chicken biryani eppadi seivathu chicken biryani ela cheyali chicken biryani easy recipe chicken biryani executive smile pack chicken biryani eppadi chicken biryani eating chicken biryani essence chicken biryani ela chestaru chicken biryani ela tayaru cheyali chicken biryani emoji</span>
+              <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order
+              Now
+              <span className="sr-only">
+                chicken biryani description chicken biryani drawing chicken
+                biryani dum biryani chicken biryani dikhao chicken biryani
+                digestion time chicken biryani dum time chicken biryani delhi
+                chicken biryani delivery near me chicken biryani dada boudi
+                price chicken biryani drawing for kids chicken biryani eppadi
+                seivathu chicken biryani ela cheyali chicken biryani easy recipe
+                chicken biryani executive smile pack chicken biryani eppadi
+                chicken biryani eating chicken biryani essence chicken biryani
+                ela chestaru chicken biryani ela tayaru cheyali chicken biryani
+                emoji
+              </span>
             </button>
             <a
               href="#menu"
               className="bg-transparent border-2 border-white hover:bg-white hover:text-stone-900 text-white px-5 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-lg font-bold transition-all flex items-center justify-center gap-2 text-sm md:text-base lg:text-lg shadow-lg underline decoration-transparent hover:decoration-stone-900 underline-offset-4 min-h-[44px] min-w-[44px]"
             >
               View Menu
-              <span className="sr-only">chicken biryani family pack price chicken biryani for 100 persons price chicken biryani full plate price chicken biryani family pack chicken biryani for 15 persons ingredients chicken biryani for 50 person price chicken biryani for 20 persons ingredients chicken biryani for 10 persons ingredients chicken biryani for 25 persons price chicken biryani famous near me chicken biryani game chicken biryani gravy recipe chicken biryani glycemic index chicken biryani gravy chicken biryani gurgaon chicken biryani good for health chicken biryani gravy masala chicken biryani good for weight loss chicken biryani gorakhpur chicken biryani ghaziabad</span>
+              <span className="sr-only">
+                chicken biryani family pack price chicken biryani for 100
+                persons price chicken biryani full plate price chicken biryani
+                family pack chicken biryani for 15 persons ingredients chicken
+                biryani for 50 person price chicken biryani for 20 persons
+                ingredients chicken biryani for 10 persons ingredients chicken
+                biryani for 25 persons price chicken biryani famous near me
+                chicken biryani game chicken biryani gravy recipe chicken
+                biryani glycemic index chicken biryani gravy chicken biryani
+                gurgaon chicken biryani good for health chicken biryani gravy
+                masala chicken biryani good for weight loss chicken biryani
+                gorakhpur chicken biryani ghaziabad
+              </span>
             </a>
           </div>
         </div>
@@ -302,17 +345,47 @@ export default function Home() {
             <div className="w-full lg:w-1/2 text-center lg:text-left space-y-4 md:space-y-6 lg:space-y-8">
               <h2 className="text-amber-600 font-bold uppercase tracking-widest text-xs md:text-sm lg:text-base">
                 One Dish. Infinite Flavor.
-                <span className="sr-only">chicken biryani hd images chicken biryani hotel near me chicken biryani handi chicken biryani hyderabad chicken biryani hyderabadi chicken biryani how many calories chicken biryani hd chicken biryani home delivery near me chicken biryani hotel chicken biryani hindi chicken biryani ingredients chicken biryani images hd chicken biryani images at home chicken biryani items list chicken biryani in cooker chicken biryani in tamil chicken biryani ingredients list chicken biryani in hindi chicken biryani in telugu</span>
+                <span className="sr-only">
+                  chicken biryani hd images chicken biryani hotel near me
+                  chicken biryani handi chicken biryani hyderabad chicken
+                  biryani hyderabadi chicken biryani how many calories chicken
+                  biryani hd chicken biryani home delivery near me chicken
+                  biryani hotel chicken biryani hindi chicken biryani
+                  ingredients chicken biryani images hd chicken biryani images
+                  at home chicken biryani items list chicken biryani in cooker
+                  chicken biryani in tamil chicken biryani ingredients list
+                  chicken biryani in hindi chicken biryani in telugu
+                </span>
               </h2>
               <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold text-stone-900 leading-tight">
                 The Signature Chicken Dum Biryani
-                <span className="sr-only">chicken biryani jaise vidhanam chicken biryani jumbo pack price chicken biryani jaipur chicken biryani jabbar bhai chicken biryani jabalpur chicken biryani jalandhar chicken biryani jumbo chicken biryani jalgaon chicken biryani jpg image chicken biryani jumbo pack chicken biryani ki recipe chicken biryani kannada chicken biryani ka photo chicken biryani khane ke fayde chicken biryani kashi banvaychi chicken biryani kaise vidhanam chicken biryani kaise chicken biryani kerala style chicken biryani kolkata</span>
+                <span className="sr-only">
+                  chicken biryani jaise vidhanam chicken biryani jumbo pack
+                  price chicken biryani jaipur chicken biryani jabbar bhai
+                  chicken biryani jabalpur chicken biryani jalandhar chicken
+                  biryani jumbo chicken biryani jalgaon chicken biryani jpg
+                  image chicken biryani jumbo pack chicken biryani ki recipe
+                  chicken biryani kannada chicken biryani ka photo chicken
+                  biryani khane ke fayde chicken biryani kashi banvaychi chicken
+                  biryani kaise vidhanam chicken biryani kaise chicken biryani
+                  kerala style chicken biryani kolkata
+                </span>
               </h3>
               <p className="text-sm md:text-base lg:text-lg xl:text-xl text-stone-600 leading-relaxed">
                 We don't distract you with a 10-page menu. We serve{" "}
                 <strong>one thing</strong>, and we have perfected it over
                 decades.
-                <span className="sr-only">chicken biryani list chicken biryani lucknow chicken biryani logo chicken biryani leg piece chicken biryani list of ingredients chicken biryani low price chicken biryani list in tamil chicken biryani location chicken biryani ludhiana chicken biryani large quantity chicken biryani maduva vidhana chicken biryani malayalam chicken biryani masala everest chicken biryani masala suhana chicken biryani masala recipe chicken biryani model chicken biryani masala packet chicken biryani mutton biryani chicken biryani maduva vidhana kannada</span>
+                <span className="sr-only">
+                  chicken biryani list chicken biryani lucknow chicken biryani
+                  logo chicken biryani leg piece chicken biryani list of
+                  ingredients chicken biryani low price chicken biryani list in
+                  tamil chicken biryani location chicken biryani ludhiana
+                  chicken biryani large quantity chicken biryani maduva vidhana
+                  chicken biryani malayalam chicken biryani masala everest
+                  chicken biryani masala suhana chicken biryani masala recipe
+                  chicken biryani model chicken biryani masala packet chicken
+                  biryani mutton biryani chicken biryani maduva vidhana kannada
+                </span>
               </p>
 
               <ul className="space-y-3 md:space-y-4 lg:space-y-5 mt-4 md:mt-6 lg:mt-8">
@@ -374,7 +447,18 @@ export default function Home() {
                   className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white font-bold py-3 md:py-4 lg:py-5 px-6 md:px-8 lg:px-10 xl:px-12 rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:scale-105 text-sm md:text-base lg:text-lg xl:text-xl min-h-[44px] min-w-[44px]"
                 >
                   Order Now
-                  <span className="sr-only">chicken biryani near me delivery chicken biryani near me open now chicken biryani near me within 400m chicken biryani near me with price chicken biryani near me within 800m chicken biryani nearby chicken biryani nutrition chicken biryani near me within 1.6 km chicken biryani near me home delivery chicken biryani online order chicken biryani order chicken biryani online chicken biryani online order near me chicken biryani order near me chicken biryani origin chicken biryani original photo chicken biryani offer chicken biryani order in train chicken biryani odia</span>
+                  <span className="sr-only">
+                    chicken biryani near me delivery chicken biryani near me
+                    open now chicken biryani near me within 400m chicken biryani
+                    near me with price chicken biryani near me within 800m
+                    chicken biryani nearby chicken biryani nutrition chicken
+                    biryani near me within 1.6 km chicken biryani near me home
+                    delivery chicken biryani online order chicken biryani order
+                    chicken biryani online chicken biryani online order near me
+                    chicken biryani order near me chicken biryani origin chicken
+                    biryani original photo chicken biryani offer chicken biryani
+                    order in train chicken biryani odia
+                  </span>
                 </button>
               </div>
             </div>
@@ -499,11 +583,17 @@ export default function Home() {
                       href={`tel:${outlet.phone}`}
                       className="flex items-center gap-2 md:gap-3 hover:text-amber-500 transition"
                     >
-                      <Phone size={16} className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5" />{" "}
+                      <Phone
+                        size={16}
+                        className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5"
+                      />{" "}
                       {outlet.phone}
                     </a>
                     <p className="flex items-center gap-2 md:gap-3">
-                      <Clock size={16} className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5" />{" "}
+                      <Clock
+                        size={16}
+                        className="md:w-[18px] md:h-[18px] xl:w-5 xl:h-5"
+                      />{" "}
                       {outlet.timings}
                     </p>
                   </div>
@@ -687,7 +777,7 @@ export default function Home() {
               </h3>
               <div className="space-y-3 md:space-y-4">
                 <a
-                  href="http://zoma.to/r/21398988"
+                  href="https://www.zomato.com/hyderabad/madina-chicken-biryani-ecil-secunderabad/order"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-white text-red-600 hover:bg-red-50 font-semibold py-2 md:py-3 px-4 md:px-6 rounded-lg transition-all text-sm md:text-base hover:scale-105 transform"
@@ -695,7 +785,7 @@ export default function Home() {
                   ECIL Outlet
                 </a>
                 <a
-                  href="http://zoma.to/r/20942835"
+                  href="https://www.zomato.com/hyderabad/super-chef-nacharam-secunderabad/order"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-white text-red-600 hover:bg-red-50 font-semibold py-2 md:py-3 px-4 md:px-6 rounded-lg transition-all text-sm md:text-base hover:scale-105 transform"
@@ -742,17 +832,115 @@ export default function Home() {
       {/* Hidden SEO Keywords Section */}
       <div className="sr-only">
         <h2>Complete Chicken Biryani Guide - All Keywords</h2>
-        <p>chicken biryani png chicken biryani pics chicken biryani protein chicken biryani per kg price chicken biryani price near me chicken biryani photos hd chicken biryani plate chicken biryani preparation chicken biryani quotes chicken biryani quarter means chicken biryani quarter chicken biryani quantity chicken biryani quick recipe chicken biryani quick style chicken biryani quotation chicken biryani quantity for 10 persons chicken biryani qawwali chicken biryani quantity for 6 persons</p>
-        <p>chicken biryani recipe in tamil chicken biryani recipe in hindi chicken biryani recipe ingredients chicken biryani recipe in marathi chicken biryani recipe in malayalam chicken biryani recipe in kannada chicken biryani recipe in bengali chicken biryani recipe in telugu chicken biryani restaurant near me chicken biryani shop near me chicken biryani seimurai chicken biryani smile pack chicken biryani spelling chicken biryani seivathu chicken biryani swiggy chicken biryani song chicken biryani shop chicken biryani seivathu eppadi tamil</p>
-        <p>chicken biryani tayari vidhanam chicken biryani telugu chicken biryani tayari chicken biryani tamil chicken biryani telugu lo chicken biryani types chicken biryani taiyar jaise vidhanam chicken biryani telugu video chicken biryani thane chicken biryani thali chicken biryani under 100 near me chicken biryani under 100 chicken biryani under 150 near me chicken biryani under 200 chicken biryani under 150 chicken biryani under 200 near me chicken biryani unlimited chicken biryani uttam nagar chicken biryani uses chicken biryani upokoron</p>
-        <p>chicken biryani video chicken biryani varieties chicken biryani vadodara chicken biryani vidhanam chicken biryani vs chicken dum biryani chicken biryani vs mutton biryani chicken biryani video download chicken biryani vismai food chicken biryani vidhana chicken biryani videos telugu chicken biryani with raita chicken biryani wala chicken biryani with egg chicken biryani wallpaper chicken biryani with gravy chicken biryani with leg piece chicken biryani wala cartoon chicken biryani wala cheyali chicken biryani without chicken chicken biryani water ratio</p>
-        <p>chicken biryani xl chicken xl biryani ambur chicken xl biryani ambur quantity thalappakatti chicken biryani xl how to make biryani chicken biryani at home how to make chicken biryani at home 4 kg chicken biryani recipe how long to cook chicken for biryani types of chicken biryani chicken biryani express chicken biryani youtube chicken biryani yfl chicken biryani your food lab chicken biryani youtube telugu chicken biryani yummy o yummy chicken biryani youtube shorts chicken biryani yummy tummy chicken biryani youtube video chicken biryani yummy tummy aarthi chicken biryani youtube kannada</p>
-        <p>chicken biryani zomato chicken biryani zomato price chicken biryani zomato order chicken biryani zepto chicken biryani zomato image chicken biryani zam zam chicken biryani zomato price near me chicken biryani zaika chicken biryani zomato near me chicken biryani zanzibar chicken biryani o chicken biryani o que é 1 chicken biryani calories half kg chicken biryani recipe half chicken biryani calories 1.5 kg chicken biryani recipe</p>
-        <p>chicken biryani 100 chicken biryani 11 chicken biryani 8 chicken biryani 50 chicken biryani 1 kg price chicken biryani 1 kg price near me chicken biryani 1kg chicken biryani 1 plate price chicken biryani 100g calories chicken biryani 1 kg recipe chicken biryani 100 rupees chicken biryani 1000ml means chicken biryani 1/2 kg chicken biryani 1 kilo chicken biryani 250g calories chicken biryani 2 kg price chicken biryani 2 kg chicken biryani 2 kg recipe chicken biryani 250g chicken biryani 200g calories chicken biryani 24 hours chicken biryani 2 chicken biryani 2 plate chicken biryani 2 kilo</p>
-        <p>chicken biryani 3 kg chicken biryani 3 kg price chicken biryani 3d images chicken biryani 300g calories chicken biryani 30 members chicken biryani 3 chicken biryani 300 gm chicken biryani 3d model chicken biryani 3d chicken biryani 3 kilo chicken biryani 4k images chicken biryani 4k hd images chicken biryani 4k chicken biryani 400g calories chicken biryani 4 kg chicken biryani 400g chicken biryani 4k wallpaper chicken biryani 4k png chicken 43 biryani chicken biryani for 40 persons price</p>
-        <p>chicken biryani 500g calories chicken biryani 500 ml chicken biryani 5 kg price chicken biryani 50 members chicken biryani 500g protein chicken biryani 500gm chicken biryani 50 rupees chicken biryani 5 rupay chicken biryani 500 ml calories chicken biryani 5 star hotel chicken biryani 65 chicken biryani 60 rupees chicken biryani 65 images chicken biryani 65 recipe chicken biryani 600g calories chicken 65 biryani combo chicken biryani 69 chicken biryani 65 near me chicken biryani 600ml chicken 65 biryani calories</p>
-        <p>chicken biryani 750 ml means chicken biryani 750 ml chicken biryani 750 ml calories 7-11 chicken biryani chicken biryani 7 chicken biryani 70 rupees chicken 75 biryani chicken 78 biryani chicken biryani for 70 person butter chicken biryani 7 eleven chicken biryani 80 rupees chicken biryani 80 chicken biryani 8k images chicken 85 biryani chicken biryani for 8 persons chicken biryani for 800 people chicken biryani for 80 people chicken biryani within 800m chicken biryani for 800</p>
-        <p>chicken biryani 99 chicken biryani 99 rupees near me chicken biryani 99 near me chicken biryani 99 rupees chicken 999 biryani chicken 95 biryani chicken 90 biryani chicken biryani for 9 people ambur chicken 95 biryani 913 chicken biryani</p>
+        <p>
+          chicken biryani png chicken biryani pics chicken biryani protein
+          chicken biryani per kg price chicken biryani price near me chicken
+          biryani photos hd chicken biryani plate chicken biryani preparation
+          chicken biryani quotes chicken biryani quarter means chicken biryani
+          quarter chicken biryani quantity chicken biryani quick recipe chicken
+          biryani quick style chicken biryani quotation chicken biryani quantity
+          for 10 persons chicken biryani qawwali chicken biryani quantity for 6
+          persons
+        </p>
+        <p>
+          chicken biryani recipe in tamil chicken biryani recipe in hindi
+          chicken biryani recipe ingredients chicken biryani recipe in marathi
+          chicken biryani recipe in malayalam chicken biryani recipe in kannada
+          chicken biryani recipe in bengali chicken biryani recipe in telugu
+          chicken biryani restaurant near me chicken biryani shop near me
+          chicken biryani seimurai chicken biryani smile pack chicken biryani
+          spelling chicken biryani seivathu chicken biryani swiggy chicken
+          biryani song chicken biryani shop chicken biryani seivathu eppadi
+          tamil
+        </p>
+        <p>
+          chicken biryani tayari vidhanam chicken biryani telugu chicken biryani
+          tayari chicken biryani tamil chicken biryani telugu lo chicken biryani
+          types chicken biryani taiyar jaise vidhanam chicken biryani telugu
+          video chicken biryani thane chicken biryani thali chicken biryani
+          under 100 near me chicken biryani under 100 chicken biryani under 150
+          near me chicken biryani under 200 chicken biryani under 150 chicken
+          biryani under 200 near me chicken biryani unlimited chicken biryani
+          uttam nagar chicken biryani uses chicken biryani upokoron
+        </p>
+        <p>
+          chicken biryani video chicken biryani varieties chicken biryani
+          vadodara chicken biryani vidhanam chicken biryani vs chicken dum
+          biryani chicken biryani vs mutton biryani chicken biryani video
+          download chicken biryani vismai food chicken biryani vidhana chicken
+          biryani videos telugu chicken biryani with raita chicken biryani wala
+          chicken biryani with egg chicken biryani wallpaper chicken biryani
+          with gravy chicken biryani with leg piece chicken biryani wala cartoon
+          chicken biryani wala cheyali chicken biryani without chicken chicken
+          biryani water ratio
+        </p>
+        <p>
+          chicken biryani xl chicken xl biryani ambur chicken xl biryani ambur
+          quantity thalappakatti chicken biryani xl how to make biryani chicken
+          biryani at home how to make chicken biryani at home 4 kg chicken
+          biryani recipe how long to cook chicken for biryani types of chicken
+          biryani chicken biryani express chicken biryani youtube chicken
+          biryani yfl chicken biryani your food lab chicken biryani youtube
+          telugu chicken biryani yummy o yummy chicken biryani youtube shorts
+          chicken biryani yummy tummy chicken biryani youtube video chicken
+          biryani yummy tummy aarthi chicken biryani youtube kannada
+        </p>
+        <p>
+          chicken biryani zomato chicken biryani zomato price chicken biryani
+          zomato order chicken biryani zepto chicken biryani zomato image
+          chicken biryani zam zam chicken biryani zomato price near me chicken
+          biryani zaika chicken biryani zomato near me chicken biryani zanzibar
+          chicken biryani o chicken biryani o que é 1 chicken biryani calories
+          half kg chicken biryani recipe half chicken biryani calories 1.5 kg
+          chicken biryani recipe
+        </p>
+        <p>
+          chicken biryani 100 chicken biryani 11 chicken biryani 8 chicken
+          biryani 50 chicken biryani 1 kg price chicken biryani 1 kg price near
+          me chicken biryani 1kg chicken biryani 1 plate price chicken biryani
+          100g calories chicken biryani 1 kg recipe chicken biryani 100 rupees
+          chicken biryani 1000ml means chicken biryani 1/2 kg chicken biryani 1
+          kilo chicken biryani 250g calories chicken biryani 2 kg price chicken
+          biryani 2 kg chicken biryani 2 kg recipe chicken biryani 250g chicken
+          biryani 200g calories chicken biryani 24 hours chicken biryani 2
+          chicken biryani 2 plate chicken biryani 2 kilo
+        </p>
+        <p>
+          chicken biryani 3 kg chicken biryani 3 kg price chicken biryani 3d
+          images chicken biryani 300g calories chicken biryani 30 members
+          chicken biryani 3 chicken biryani 300 gm chicken biryani 3d model
+          chicken biryani 3d chicken biryani 3 kilo chicken biryani 4k images
+          chicken biryani 4k hd images chicken biryani 4k chicken biryani 400g
+          calories chicken biryani 4 kg chicken biryani 400g chicken biryani 4k
+          wallpaper chicken biryani 4k png chicken 43 biryani chicken biryani
+          for 40 persons price
+        </p>
+        <p>
+          chicken biryani 500g calories chicken biryani 500 ml chicken biryani 5
+          kg price chicken biryani 50 members chicken biryani 500g protein
+          chicken biryani 500gm chicken biryani 50 rupees chicken biryani 5
+          rupay chicken biryani 500 ml calories chicken biryani 5 star hotel
+          chicken biryani 65 chicken biryani 60 rupees chicken biryani 65 images
+          chicken biryani 65 recipe chicken biryani 600g calories chicken 65
+          biryani combo chicken biryani 69 chicken biryani 65 near me chicken
+          biryani 600ml chicken 65 biryani calories
+        </p>
+        <p>
+          chicken biryani 750 ml means chicken biryani 750 ml chicken biryani
+          750 ml calories 7-11 chicken biryani chicken biryani 7 chicken biryani
+          70 rupees chicken 75 biryani chicken 78 biryani chicken biryani for 70
+          person butter chicken biryani 7 eleven chicken biryani 80 rupees
+          chicken biryani 80 chicken biryani 8k images chicken 85 biryani
+          chicken biryani for 8 persons chicken biryani for 800 people chicken
+          biryani for 80 people chicken biryani within 800m chicken biryani for
+          800
+        </p>
+        <p>
+          chicken biryani 99 chicken biryani 99 rupees near me chicken biryani
+          99 near me chicken biryani 99 rupees chicken 999 biryani chicken 95
+          biryani chicken 90 biryani chicken biryani for 9 people ambur chicken
+          95 biryani 913 chicken biryani
+        </p>
       </div>
 
       {/* --- FOOTER --- */}
@@ -819,22 +1007,34 @@ export default function Home() {
             </h4>
             <ul className="space-y-1 md:space-y-2 text-xs md:text-sm">
               <li>
-                <a href="#home" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
+                <a
+                  href="#home"
+                  className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="#menu" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
+                <a
+                  href="#menu"
+                  className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
                   Our Menu
                 </a>
               </li>
               <li>
-                <a href="#outlets" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
+                <a
+                  href="#outlets"
+                  className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
                   Locate Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">
+                <a
+                  href="#"
+                  className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
                   Privacy Policy
                 </a>
               </li>
@@ -863,7 +1063,13 @@ export default function Home() {
                 © 2026 Madina Chicken Biryani. All Rights Reserved.
               </li>
               <li className="text-xs mt-1">
-                For feedback & suggestions: <a href="mailto:Rafiudden@outlook.com" className="text-amber-400 hover:text-amber-300 transition underline decoration-transparent hover:decoration-amber-300 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center">Rafiudden@outlook.com</a>
+                For feedback & suggestions:{" "}
+                <a
+                  href="mailto:Rafiudden@outlook.com"
+                  className="text-amber-400 hover:text-amber-300 transition underline decoration-transparent hover:decoration-amber-300 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
+                  Rafiudden@outlook.com
+                </a>
               </li>
             </ul>
           </div>
