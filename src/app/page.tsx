@@ -241,29 +241,27 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 lg:gap-16 xl:gap-20">
             {/* Image Side */}
             <div className="w-full lg:w-1/2 relative">
-              <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-2xl relative max-w-sm mx-auto lg:max-w-md xl:max-w-lg">
-                <Image
-                  src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop"
+              <div className="aspect-[4/5] rounded-lg overflow-visible shadow-2xl relative max-w-sm mx-auto lg:max-w-md xl:max-w-lg">
+                <img
                   alt="Authentic Hyderabadi Dum Biryani served in traditional style with aromatic basmati rice and tender chicken"
-                  fill
-                  sizes="(max-width: 640px) 384px, (max-width: 1024px) 448px, 512px"
-                  className="object-cover hover:scale-105 transition duration-700"
+                  className="object-cover hover:scale-105 transition duration-700 rounded-lg"
+                  style={{position: 'absolute', height: '100%', width: '100%', left: 0, top: 0, right: 0, bottom: 0, color: 'transparent'}}
+                  src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 md:p-6 lg:p-8">
                   <p className="text-white font-serif italic text-base md:text-lg lg:text-xl">
                     "Authenticity in every grain"
                   </p>
                 </div>
-              </div>
-              {/* Decorative Floating Element */}
-              <div className="absolute -bottom-3 -right-3 md:-bottom-4 md:-right-4 lg:-bottom-6 lg:-right-6 w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-stone-900 text-amber-500 p-2 md:p-3 lg:p-4 rounded-full flex items-center justify-center text-center shadow-xl border-2 md:border-3 lg:border-4 border-white">
-                <span className="font-bold text-xs md:text-sm lg:text-base leading-tight">
-                  100%
-                  <br />
-                  Halal
-                  <br />
-                  Certified
-                </span>
+                <div className="absolute -bottom-3 -right-3 md:-bottom-4 md:-right-4 lg:-bottom-6 lg:-right-6 w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-stone-900 text-amber-500 p-2 md:p-3 lg:p-4 rounded-full flex items-center justify-center text-center shadow-xl border-2 md:border-3 lg:border-4 border-white" style={{zIndex: 999}}>
+                  <span className="font-bold text-xs md:text-sm lg:text-base leading-tight">
+                    100%
+                    <br />
+                    Halal
+                    <br />
+                    Certified
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -321,24 +319,21 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 lg:gap-16 xl:gap-20">
             <div className="w-full lg:w-1/2 relative">
               {/* Big Hero Image of the Biryani Plate */}
-              <div className="aspect-square relative rounded-full border-3 md:border-4 lg:border-5 border-amber-500 shadow-2xl overflow-hidden max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
-                <Image
-                  src="/MadinaBiryaniSG.jpg"
+              <div className="aspect-square relative rounded-full border-3 md:border-4 lg:border-5 border-amber-500 shadow-2xl overflow-visible max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
+                <img
                   alt="Madina Biryani signature Hyderabadi Dum Biryani plate with fragrant basmati rice, tender chicken, and traditional spices - ₹100 per plate"
-                  fill
-                  sizes="(max-width: 640px) 320px, (max-width: 768px) 384px, (max-width: 1024px) 448px, (max-width: 1280px) 512px, 576px"
-                  priority
-                  className="object-cover hover:scale-110 transition duration-700"
+                  className="object-cover hover:scale-110 transition duration-700 rounded-full"
+                  style={{position: 'absolute', height: '100%', width: '100%', left: 0, top: 0, right: 0, bottom: 0, color: 'transparent'}}
+                  src="/MadinaBiryaniSG.jpg"
                 />
-              </div>
-              {/* Badge */}
-              <div className="absolute top-2 right-2 md:top-4 md:right-4 lg:top-6 lg:right-6 bg-stone-900 text-white p-2 md:p-3 lg:p-4 rounded-full shadow-lg border-2 border-white">
-                <span className="block text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
-                  ₹100
-                </span>
-                <span className="text-xs md:text-sm uppercase tracking-widest">
-                  Per Plate
-                </span>
+                <div className="absolute top-2 right-2 md:top-4 md:right-4 lg:top-6 lg:right-6 bg-stone-900 text-white p-2 md:p-3 lg:p-4 rounded-full shadow-lg border-2 border-white" style={{zIndex: 999}}>
+                  <span className="block text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
+                    ₹100
+                  </span>
+                  <span className="text-xs md:text-sm uppercase tracking-widest">
+                    Per Plate
+                  </span>
+                </div>
               </div>
             </div>
 
