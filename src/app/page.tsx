@@ -244,8 +244,7 @@ export default function Home() {
               <div className="aspect-[4/5] rounded-lg overflow-visible shadow-2xl relative max-w-sm mx-auto lg:max-w-md xl:max-w-lg">
                 <img
                   alt="Authentic Hyderabadi Dum Biryani served in traditional style with aromatic basmati rice and tender chicken"
-                  className="object-cover hover:scale-105 transition duration-700 rounded-lg"
-                  style={{position: 'absolute', height: '100%', width: '100%', left: 0, top: 0, right: 0, bottom: 0, color: 'transparent'}}
+                  className="object-cover hover:scale-105 transition duration-700 rounded-lg absolute inset-0 w-full h-full"
                   src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?q=80&w=800&auto=format&fit=crop"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-4 md:p-6 lg:p-8">
@@ -253,7 +252,7 @@ export default function Home() {
                     "Authenticity in every grain"
                   </p>
                 </div>
-                <div className="absolute -bottom-3 -right-3 md:-bottom-4 md:-right-4 lg:-bottom-6 lg:-right-6 w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-stone-900 text-amber-500 p-2 md:p-3 lg:p-4 rounded-full flex items-center justify-center text-center shadow-xl border-2 md:border-3 lg:border-4 border-white" style={{zIndex: 999}}>
+                <div className="absolute -bottom-3 -right-3 md:-bottom-4 md:-right-4 lg:-bottom-6 lg:-right-6 w-20 h-20 md:w-24 md:h-24 lg:w-32 lg:h-32 bg-stone-900 text-amber-500 p-2 md:p-3 lg:p-4 rounded-full flex items-center justify-center text-center shadow-xl border-2 md:border-3 lg:border-4 border-white z-[999]">
                   <span className="font-bold text-xs md:text-sm lg:text-base leading-tight">
                     100%
                     <br />
@@ -322,11 +321,10 @@ export default function Home() {
               <div className="aspect-square relative rounded-full border-3 md:border-4 lg:border-5 border-amber-500 shadow-2xl overflow-visible max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl mx-auto">
                 <img
                   alt="Madina Biryani signature Hyderabadi Dum Biryani plate with fragrant basmati rice, tender chicken, and traditional spices - ₹100 per plate"
-                  className="object-cover hover:scale-110 transition duration-700 rounded-full"
-                  style={{position: 'absolute', height: '100%', width: '100%', left: 0, top: 0, right: 0, bottom: 0, color: 'transparent'}}
+                  className="object-cover hover:scale-110 transition duration-700 rounded-full absolute inset-0 w-full h-full"
                   src="/MadinaBiryaniSG.jpg"
                 />
-                <div className="absolute top-2 right-2 md:top-4 md:right-4 lg:top-6 lg:right-6 bg-stone-900 text-white p-2 md:p-3 lg:p-4 rounded-full shadow-lg border-2 border-white" style={{zIndex: 999}}>
+                <div className="absolute top-2 right-2 md:top-4 md:right-4 lg:top-6 lg:right-6 bg-stone-900 text-white p-2 md:p-3 lg:p-4 rounded-full shadow-lg border-2 border-white z-[999]">
                   <span className="block text-lg md:text-xl lg:text-2xl xl:text-3xl font-bold">
                     ₹100
                   </span>
