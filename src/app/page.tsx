@@ -99,7 +99,7 @@ export default function Home() {
       className={`${playfair.variable} ${lato.variable} font-sans bg-stone-50 text-stone-800`}
     >
       {/* --- NAVIGATION --- */}
-      <nav className="fixed w-full z-50 bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20 landscape-nav">
+      <nav className="fixed w-full z-[9999] bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20 landscape-nav">
         <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-8">
           <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white landscape-text">
             MADINA <span className="text-amber-500">BIRYANI</span>
