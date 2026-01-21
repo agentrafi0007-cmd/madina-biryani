@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     description: "Order the best chicken biryani in Hyderabad at just ₹100! Authentic Hyderabadi Dum Biryani with fresh ingredients. Affordable chicken biryani delivery near you.",
     type: "website",
     locale: "en_IN",
-    url: "https://madinabiryani.site",
+    url: "https://madinabiryani.site/",
     siteName: "Madina Biryani",
     images: [
       {
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     google: "google-site-verification-code",
   },
   alternates: {
-    canonical: "https://madinabiryani.site",
+    canonical: "https://madinabiryani.site/",
   },
   other: {
     "google": "notranslate",
@@ -124,7 +124,7 @@ export default function RootLayout({
         <meta name="revisit-after" content="1 days" />
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
-        <link rel="canonical" href="https://madinabiryani.site" />
+        <link rel="canonical" href="https://madinabiryani.site/" />
         <JsonLd />
         <FaqSchema />
         <BreadcrumbSchema />
