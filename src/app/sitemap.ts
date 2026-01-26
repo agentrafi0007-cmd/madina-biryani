@@ -12,5 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
     },
+    {
+      url: `http://madinabiryani.site/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
   ]
 }
