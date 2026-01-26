@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://madinabiryani.site'),
   title: {
     default: "Madina Biryani | Best Chicken Biryani ₹100 | Order Hyderabadi Dum Biryani Online",
     template: "%s | Madina Biryani - Best Chicken Biryani Hyderabad",
