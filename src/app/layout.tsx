@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   },
   description: "Order the best chicken biryani in Hyderabad at just ₹100! Madina Biryani serves authentic Hyderabadi Dum Biryani with fresh ingredients. Affordable chicken biryani near you - ECIL, Nacharam, Dammaiguda. Order online now!",
   icons: {
-    icon: "/madinabiyani_logo_mini.ico",
-    shortcut: "/madinabiyani_logo_mini.ico",
-    apple: "/madinabiyani_logo_mini.ico",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   keywords: [
     "chicken biryani",
