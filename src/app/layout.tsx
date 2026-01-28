@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://madinabiryani.site'),
   title: {
-    default: "Madina Biryani | Best Chicken Biryani ₹100 | Order Hyderabadi Dum Biryani Online",
+    default: "Madina Biryani | Best Chicken Biryani ₹100 | Hyderabad",
     template: "%s | Madina Biryani - Best Chicken Biryani Hyderabad",
   },
   description: "Order the best chicken biryani in Hyderabad at just ₹100! Madina Biryani serves authentic Hyderabadi Dum Biryani with fresh ingredients. Affordable chicken biryani near you - ECIL, Nacharam, Dammaiguda. Order online now!",
@@ -126,7 +126,6 @@ export default function RootLayout({
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
         <meta name="developer" content="Rafi Ud Deen" />
-        <link rel="canonical" href="https://madinabiryani.site/" />
         <JsonLd />
         <FaqSchema />
         <BreadcrumbSchema />

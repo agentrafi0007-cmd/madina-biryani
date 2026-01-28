@@ -90,6 +90,10 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const scrollToOrderOnline = () => {
+    document.getElementById("order-online")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const scrollToOutlets = () => {
     document.getElementById("outlets")?.scrollIntoView({ behavior: "smooth" });
   };
@@ -101,7 +105,7 @@ export default function Home() {
       {/* --- NAVIGATION --- */}
       <nav className="fixed w-full z-[9999] bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20 landscape-nav">
         <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-8">
-          <div className="flex items-center gap-2 md:gap-3">
+          <a href="/" className="flex items-center gap-2 md:gap-3 cursor-pointer">
             <Image
               src="/favicon.ico"
               alt="Madina Biryani Logo"
@@ -113,7 +117,7 @@ export default function Home() {
             <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white landscape-text">
               MADINA <span className="text-amber-500">BIRYANI</span>
             </div>
-          </div>
+          </a>
           <div className="hidden md:flex space-x-4 lg:space-x-6 xl:space-x-8 text-xs lg:text-sm uppercase tracking-wider font-semibold">
             <a
               href="#home"
@@ -134,7 +138,7 @@ export default function Home() {
               Locations
             </a>
             <button
-              onClick={scrollToOutlets}
+              onClick={scrollToOrderOnline}
               className="px-3 lg:px-4 xl:px-5 py-2 bg-amber-600 text-white rounded hover:bg-amber-700 hover:text-white transition-all hover:scale-105 uppercase tracking-wider text-xs lg:text-sm font-semibold shadow-lg min-h-[44px] min-w-[44px]"
             >
               ORDER NOW
@@ -143,7 +147,7 @@ export default function Home() {
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
-              onClick={scrollToOutlets}
+              onClick={scrollToOrderOnline}
               className="px-3 py-2 bg-amber-600 text-white rounded-full hover:bg-amber-700 hover:text-white transition-all hover:scale-105 font-bold text-xs shadow-lg min-h-[44px] min-w-[44px]"
             >
               Order
@@ -198,7 +202,7 @@ export default function Home() {
 
           <div className="flex flex-col sm:flex-row gap-3 md:gap-4 lg:gap-6 justify-center px-2">
             <button
-              onClick={scrollToOutlets}
+              onClick={scrollToOrderOnline}
               className="bg-amber-600 hover:bg-amber-700 text-white hover:text-white px-6 md:px-8 lg:px-10 py-3 md:py-4 lg:py-5 rounded-full font-bold text-sm md:text-lg lg:text-xl transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2 md:gap-3 min-h-[44px] min-w-[44px]"
             >
               <MapPin size={18} className="md:w-5 md:h-5 lg:w-6 lg:h-6" /> Order
@@ -759,7 +763,7 @@ export default function Home() {
       </section>
 
       {/* --- ORDER ONLINE SECTION --- */}
-      <section className="py-16 md:py-20 lg:py-24 bg-gradient-to-r from-red-600 via-red-500 to-amber-600 text-white relative overflow-hidden">
+      <section id="order-online" className="py-16 md:py-20 lg:py-24 bg-gradient-to-r from-red-600 via-red-500 to-amber-600 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/food.png')] opacity-10"></div>
         <div className="container mx-auto px-4 md:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif font-bold mb-4 md:mb-6 lg:mb-8">
@@ -1035,7 +1039,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/privacy"
                   className="hover:text-amber-400 transition underline decoration-transparent hover:decoration-amber-400 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
                 >
                   Privacy Policy
@@ -1079,10 +1083,12 @@ export default function Home() {
               <li className="text-xs mt-1">
                 For feedback & suggestions:{" "}
                 <a
-                  href="mailto:Rafiudden@outlook.com"
+                  href="https://www.instagram.com/rafi_ud_deen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-amber-400 hover:text-amber-300 transition underline decoration-transparent hover:decoration-amber-300 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
                 >
-                  Rafiudden@outlook.com
+                  Contact via Instagram
                 </a>
               </li>
             </ul>
