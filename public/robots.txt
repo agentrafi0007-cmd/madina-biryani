@@ -1,3 +1,6 @@
+# Website designed & developed by Rafi Ud Deen
+# Developer: https://www.instagram.com/rafi_ud_deen/
+
 # As a condition of accessing this website, you agree to abide by the following
 # content signals:
 
@@ -54,6 +57,16 @@ Disallow: /
 # END Cloudflare Managed Content
 
 User-Agent: *
+Allow: /
+Disallow: /private/
+
+# Explicit rules for Bing
+User-agent: bingbot
+Allow: /
+Disallow: /private/
+
+# Explicit rules for Google
+User-agent: Googlebot
 Allow: /
 Disallow: /private/
 

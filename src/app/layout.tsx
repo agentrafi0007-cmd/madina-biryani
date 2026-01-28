@@ -56,8 +56,8 @@ export const metadata: Metadata = {
     "dammaiguda biryani",
     "secunderabad biryani"
   ],
-  authors: [{ name: "Madina Biryani" }],
-  creator: "Madina Biryani",
+  authors: [{ name: "Rafi Ud Deen" }],
+  creator: "Rafi Ud Deen",
   publisher: "Madina Biryani",
   formatDetection: {
     email: false,
@@ -125,6 +125,7 @@ export default function RootLayout({
         <meta name="revisit-after" content="1 days" />
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
+        <meta name="developer" content="Rafi Ud Deen" />
         <link rel="canonical" href="https://madinabiryani.site/" />
         <JsonLd />
         <FaqSchema />

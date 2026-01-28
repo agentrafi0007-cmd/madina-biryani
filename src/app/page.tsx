@@ -101,8 +101,18 @@ export default function Home() {
       {/* --- NAVIGATION --- */}
       <nav className="fixed w-full z-[9999] bg-stone-900/95 backdrop-blur-md text-amber-500 py-2 md:py-3 lg:py-4 border-b border-amber-500/20 landscape-nav">
         <div className="container mx-auto flex justify-between items-center px-3 md:px-6 lg:px-8">
-          <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white landscape-text">
-            MADINA <span className="text-amber-500">BIRYANI</span>
+          <div className="flex items-center gap-2 md:gap-3">
+            <Image
+              src="/favicon.ico"
+              alt="Madina Biryani Logo"
+              width={40}
+              height={40}
+              className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12"
+              priority
+            />
+            <div className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-extrabold tracking-widest font-serif text-white landscape-text">
+              MADINA <span className="text-amber-500">BIRYANI</span>
+            </div>
           </div>
           <div className="hidden md:flex space-x-4 lg:space-x-6 xl:space-x-8 text-xs lg:text-sm uppercase tracking-wider font-semibold">
             <a
@@ -1054,6 +1064,17 @@ export default function Home() {
               </li>
               <li className="text-xs mt-3 md:mt-4">
                 © 2026 Madina Chicken Biryani. All Rights Reserved.
+              </li>
+              <li className="text-xs mt-1">
+                Website designed & developed by{" "}
+                <a
+                  href="https://www.instagram.com/rafi_ud_deen/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-400 hover:text-amber-300 transition underline decoration-transparent hover:decoration-amber-300 underline-offset-4 min-h-[44px] min-w-[44px] inline-flex items-center"
+                >
+                  Rafi Ud Deen
+                </a>
               </li>
               <li className="text-xs mt-1">
                 For feedback & suggestions:{" "}
