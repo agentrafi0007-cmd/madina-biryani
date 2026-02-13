@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     description: "Order the best chicken biryani in Hyderabad at just ₹100! Authentic Hyderabadi Dum Biryani with fresh ingredients. Affordable chicken biryani delivery near you.",
     type: "website",
     locale: "en_IN",
-    url: "https://madinabiryani.site/",
+    url: "https://madinabiryani.in/",
     siteName: "Madina Biryani",
     images: [
       {
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
   verification: {
   },
   alternates: {
-    canonical: "https://madinabiryani.site/",
+    canonical: "https://madinabiryani.in/",
   },
   other: {
     "google": "notranslate",
