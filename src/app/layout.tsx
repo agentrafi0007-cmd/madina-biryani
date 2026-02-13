@@ -99,7 +99,6 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "google-site-verification-code",
   },
   alternates: {
     canonical: "https://madinabiryani.site/",
@@ -119,6 +118,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://images.unsplash.com" />
+        <link rel="preconnect" href="https://www.instagram.com" />
+        <link rel="preconnect" href="https://www.youtube.com" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow" />
         <meta name="bingbot" content="index, follow" />
