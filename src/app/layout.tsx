@@ -38,9 +38,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://www.instagram.com" />
         <link rel="preconnect" href="https://www.youtube.com" />
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow" />
-        <meta name="bingbot" content="index, follow" />
+        {/* Removed duplicate robots meta – using metadata.robots object */}
         <meta name="revisit-after" content="1 days" />
         <meta name="rating" content="general" />
         <meta name="distribution" content="global" />
