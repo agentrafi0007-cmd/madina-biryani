@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "geist/font";
 import "./globals.css";
-import { JsonLd } from "@/components/JsonLd";
-import { FaqSchema } from "@/components/FaqSchema";
-import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import JsonLd from "@/components/JsonLd";
+import FaqSchema from "@/components/FaqSchema";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
   title: "Madina Biryani | Best Chicken Biryani ₹100 | Hyderabad",
