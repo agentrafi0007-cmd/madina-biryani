@@ -3,9 +3,9 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": "Madina Biryani",
-    "image": "https://madinabiryani.site/MadinaBiryaniSG.jpg",
-    "@id": "https://madinabiryani.site",
-    "url": "https://madinabiryani.site",
+    "image": "https://madinabiryani.in/MadinaBiryaniSG.jpg",
+    "@id": "https://madinabiryani.in",
+    "url": "https://madinabiryani.in",
     "telephone": "+91-8374275150",
     "servesCuisine": "Hyderabadi",
     "priceRange": "$$",
@@ -36,7 +36,7 @@ export default function JsonLd() {
       "opens": "11:00",
       "closes": "23:00"
     },
-    "menu": "https://madinabiryani.site/#menu",
+    "menu": "https://madinabiryani.in/#menu",
     "hasMenu": {
       "@type": "Menu",
       "hasMenuSection": {
