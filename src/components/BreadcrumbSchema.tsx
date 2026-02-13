@@ -7,25 +7,25 @@ export default function BreadcrumbSchema() {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://madinabiryani.site"
+        "item": "https://madinabiryani.in"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": "Menu",
-        "item": "https://madinabiryani.site/#menu"
+        "item": "https://madinabiryani.in/#menu"
       },
       {
         "@type": "ListItem",
         "position": 3,
         "name": "Outlets",
-        "item": "https://madinabiryani.site/#outlets"
+        "item": "https://madinabiryani.in/#outlets"
       },
       {
         "@type": "ListItem",
         "position": 4,
         "name": "Contact",
-        "item": "https://madinabiryani.site/#contact"
+        "item": "https://madinabiryani.in/#contact"
       }
     ]
   };
