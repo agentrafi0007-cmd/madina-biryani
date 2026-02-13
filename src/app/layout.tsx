@@ -12,8 +12,14 @@ export const metadata: Metadata = {
   keywords: "chicken biryani,madina chicken biryani,madina biryani,order chicken biryani,affordable chicken biryani,biryani,order biryani,hyderabadi chicken biryani,chicken biryani near me,best chicken biryani,100 rupees biryani,100 chicken biryani,madina chicken,chicken biryani hyderabad,dum biryani,halal chicken biryani,authentic biryani,chicken biryani delivery,biryani online order,cheap chicken biryani,fresh chicken biryani,hyderabadi dum biryani,nizam biryani,ecil chicken biryani,nacharam biryani,dammaiguda biryani,secunderabad biryani",
   creator: "Rafi Ud Deen",
   publisher: "Madina Biryani",
-  robots: "index, follow",
-  googlebot: "index, follow",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   alternates: {
     canonical: "https://madinabiryani.in/",
   },
