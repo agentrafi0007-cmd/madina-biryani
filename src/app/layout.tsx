@@ -119,7 +119,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link rel="preconnect" href="https://images.unsplash.com" />
         <link rel="preconnect" href="https://www.instagram.com" />
         <link rel="preconnect" href="https://www.youtube.com" />
