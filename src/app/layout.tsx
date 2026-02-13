@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "geist/font";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import JsonLd from "@/components/JsonLd";
 import FaqSchema from "@/components/FaqSchema";
@@ -43,7 +44,7 @@ export default function RootLayout({
         <BreadcrumbSchema />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}
       >
         {children}
       </body>
